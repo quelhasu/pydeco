@@ -14,9 +14,7 @@ jobs:
 
       steps:
       - uses: actions/checkout@v1
-        with:
-            fetch-depth: 1
-        run: |
+      - run: |
           # Hack to get setup-python to work on act
           # (see https://github.com/nektos/act/issues/251)
           if [ ! -f "/etc/lsb-release" ] ; then
