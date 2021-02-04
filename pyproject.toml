@@ -10,6 +10,7 @@ forbiddenfruit = "^0.1.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
+build = "^0.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
