@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "pydeco"
+name = "py-deco"
 version = "0.1.0"
 description = "Python decorators"
 authors = ["ugo-quelhas <ugo.quelhas@edu.devinci.fr>"]
 readme = 'README.md'
-repository = "https://github.com/quelhasu/pydeco"
+repository = "https:///github.com/quelhasu/pydeco"
 homepage = "https://github.com/quelhasu/pydeco"
 
 [tool.poetry.dependencies]
